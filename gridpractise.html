@@ -1,0 +1,104 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            border: 5px green solid;
+            background-color: brown;
+            padding: 20px;
+            display: grid;
+            grid-template: 100px /auto ;
+            color: aliceblue;
+        }
+        .item{
+            border:2px green solid;
+            padding: 20px;
+            color: rgb(250, 250, 250);
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 20px;
+            background-color: fuchsia;
+
+        }
+        h1{
+            border: 2px black solid;
+            background-color: blue;
+            padding: 10px;
+        }
+        #i2{
+            grid-row: ;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Famous Dishes of India</h1>
+        
+        <div class="item" id="i1">Image 1 with caption</div>
+        <div class="item" id="i2">Image 2 with caption</div>
+        <div class="item" id="i3">Image 3 with caption</div>
+        <div class="item" id="i4">Image 4 with caption</div>
+        <div class="item" id="i5">Image 5 with caption</div>
+        <div class="item" id="i6">Image 6 with caption</div>
+    </div>
+</body>
+</html> -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            background-color: pink;
+            border: 10px red solid;
+            padding: 20px;
+            display: grid;
+             grid-template-columns:auto auto ; 
+            grid-template-rows:100px 200px/30% auto auto ;
+            grid-gap: 20px 30px;
+            text-align: center;
+            width: 400px;
+            height: 400px;
+        }
+
+        .item{
+            border: 2px green solid;
+            padding: 10px;
+            color: blue;
+            
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            background-color: lightgreen; 
+        }
+
+        #i1{
+            grid-area: 1/1/span1/span1;
+        }
+        #i2{
+           grid-area: 2/1/span1/span4;
+           text-align: center;
+        }
+        #i6{
+            grid-area: 4/1/span 1/span 2;
+        }
+
+
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item" id="i1">Famous Dish of India</div>
+        <div class="item" id="i2">Image2</div>
+        <div class="item" id="i3">Image3</div>
+        <div class="item" id="i4">Image4</div>
+        <div class="item" id="i5">Image5</div>
+        <div class="item" id="i6">Image Caption</div>
+        <div class="item" id="i7">Paragraph</div>
+        
+    </div>
+</body>
+</html>

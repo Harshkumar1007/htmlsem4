@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <form action="">
+        <label for="uname">Enter name: </label>
+        <input type="text" name="name1" id="uname" size="20" maxlength="100" placeholder="Enter your first name" value="" required >
+        <br><br>
+
+        <label for="Pass">Enter password:</label>
+        <input type="password" name="" id="pass" placeholder="Enter password" required>
+        <br><br>
+
+
+        <label for="email1">Enter Email:</label>
+        <input type="email" name="" id="email1" placeholder="Enter email id" required>
+        <br><br>
+
+
+        <label for="hooby">Choose your Hobby:</label>
+        <input type="checkbox" name="hobby" id="hobby" value="cook" //checked>Cooking
+        <input type="checkbox" name="hobby" id="hobby" >Singing
+        <input type="checkbox" name="hobby" id="hobby">Dancing
+        
+        <br><br>
+
+
+        <label for="gender">Choode Gender:</label>
+        <input type="radio" name="gender" id="gender" value="male">Male
+        <input type="radio" name="gender" id="gender" value="female">Female
+        <input type="radio" name="gender" id="gender" value="other">Other
+
+
+        <br><br>
+        <label for="statesel" id="statesel">Select State:</label>
+        <select name="statesel" id="statesel" size="" >
+            <option value="choose">choose option:</option>
+            <option value="dl">Delhi</option>
+            <option value="pun">Punjab</option>
+            <option value="bih">Bihar</option>
+            <option value="Hr">Haryana</option>
+            <option value="Up">Uttar pradesh</option>
+        </select>
+
+
+        <br><br>
+
+        <label for="file1" >choose file:</label>
+        <input type="file" name="file1" id="file1">
+
+        <br><br>
+
+
+        <label for="feedback">Enter Feedback:</label>
+        <textarea name="feedback" id="feedback" rows="7" cols="50" placeholder="Enter feedback for better experience:"></textarea>
+        
+        
+        <br><br>
+
+
+        <input type="submit" name="submitform" id="submitform" value="Submit form">
+        <input type="reset" name="resetform" id="resetform" value="reset form">
+        <input type="image" name="img" id="img" src="1000047390.jpg">
+    </form>
+</body>
+</html>
